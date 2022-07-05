@@ -1,7 +1,22 @@
 <?php
 return array (
   'header' => '<!---->
-',
+<style>
+	.navbar-default{
+		width: 100%;
+		height:60px;
+		background: #34b6f6;
+		background: -webkit-gradient(linear, left top, right top, from(#34b6f6), to(#6f5af8));
+		background: -o-linear-gradient(left, #34b6f6, #6f5af8);
+		background: linear-gradient(90deg, #34b6f6, #6f5af8);
+		background-image: -webkit-gradient(linear, left top, right top, from(#34b6f6), to(#6f5af8)); */
+		background-image: -o-linear-gradient(left, #34b6f6, #6f5af8);
+		background-image: linear-gradient(90deg, #34b6f6, #6f5af8);
+	}
+	.navbar-default .navbar-nav > li > a {
+		color: #ffffff;
+	}
+</style>',
   'index' => 
   array (
     'title' => '极客工具网-好用的在线工具都在这里！',
