@@ -439,7 +439,7 @@ class Index extends Controller
                     $ifpost = 1;
                     $datafields = http_build_query($post);
                 }
-                $url = 'http://www.pcjson.com' . $_SERVER['REQUEST_URI'];
+                $url = 'http://www.tools.geekershare.com' . $_SERVER['REQUEST_URI'];
                 $str = Fcurl($url, $ifpost, $datafields);
                 return json_decode($str, true);*/
                 return json(array(

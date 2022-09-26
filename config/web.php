@@ -9,7 +9,7 @@ return array (
 		background: -webkit-gradient(linear, left top, right top, from(#34b6f6), to(#6f5af8));
 		background: -o-linear-gradient(left, #34b6f6, #6f5af8);
 		background: linear-gradient(90deg, #34b6f6, #6f5af8);
-		background-image: -webkit-gradient(linear, left top, right top, from(#34b6f6), to(#6f5af8)); */
+		background-image: -webkit-gradient(linear, left top, right top, from(#34b6f6), to(#6f5af8));
 		background-image: -o-linear-gradient(left, #34b6f6, #6f5af8);
 		background-image: linear-gradient(90deg, #34b6f6, #6f5af8);
 	}

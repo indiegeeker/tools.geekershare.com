@@ -1,4 +1,4 @@
-<?php /*a:4:{s:74:"/www/wwwroot/tools.geekershare.com/application/index/view/index/index.html";i:1634037866;s:69:"/www/wwwroot/tools.geekershare.com/application/index/view/header.html";i:1656568709;s:67:"/www/wwwroot/tools.geekershare.com/application/index/view/link.html";i:1656568693;s:69:"/www/wwwroot/tools.geekershare.com/application/index/view/footer.html";i:1656568761;}*/ ?>
+<?php /*a:4:{s:74:"/www/wwwroot/tools.geekershare.com/application/index/view/index/index.html";i:1634037866;s:69:"/www/wwwroot/tools.geekershare.com/application/index/view/header.html";i:1656568709;s:67:"/www/wwwroot/tools.geekershare.com/application/index/view/link.html";i:1656568693;s:69:"/www/wwwroot/tools.geekershare.com/application/index/view/footer.html";i:1657010951;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -431,8 +431,14 @@
                     href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">萌ICP备2022140346号</a></span></div>
 <script>
 var _hmt = _hmt || [];
-
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?238b179e92a3e886e5e96b01f8384654";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
+
         </div>
     </div>
 </div>
